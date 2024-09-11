@@ -1,0 +1,326 @@
+body {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*#row{
+    overflow: auto;
+} Only for the upper navbar flow scroll */
+#block {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(43, 40, 40);
+    width: 1930px;
+    height: 38px;
+    position: fixed;
+}
+
+.all {
+    float: left;
+    display: block;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.all a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    font-weight: 500;
+}
+
+.all:hover {
+    background-color: rgb(56, 53, 53);
+}
+
+.all:active {
+    background-color: rgb(15, 184, 15);
+}
+
+.one {
+    background-color: rgb(31, 165, 31);
+}
+
+.one:hover {
+    background-color: rgb(18, 184, 18);
+}
+
+#vertnav {
+    width: 20%;
+    background-color: rgb(229, 233, 243);
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    float: left;
+    position: fixed;
+    margin-top: 40px;
+}
+
+#php {
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+#nav {
+    list-style-type: none;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.same {
+    display: block;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 15px;
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+.same a {
+    text-decoration: none;
+    color: black;
+}
+
+.same:hover {
+    background-color: rgb(100, 99, 99);
+}
+
+.same:active {
+    background-color: rgb(31, 165, 31);
+}
+
+.same:active a {
+    color: white;
+}
+
+.two {
+    background-color: rgb(48, 155, 48);
+}
+
+.two:hover {
+    background-color: rgb(48, 155, 48);
+}
+
+.two a {
+    color: white;
+}
+
+#home {
+    width: 80%;
+    background-color: white;
+    height: auto;
+    float: right;
+    border-right: 0.5px solid rgb(211, 209, 209);
+    margin-right: 10px;
+}
+
+#han {
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 90px;
+    padding-left: 30px;
+}
+
+#btn1 {
+    border: 1px solid white;
+    width: 95%;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 40px;
+    margin-top: -10px;
+}
+
+.btn2 {
+    background-color: rgb(33, 165, 44);
+    border: 1px solid rgb(23, 201, 38);
+    height: 45px;
+    width: 90px;
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+    border-radius: 7px;
+    float: left;
+    cursor: pointer;
+}
+
+.btn3 {
+    background-color: rgb(33, 165, 44);
+    border: 1px solid rgb(23, 201, 38);
+    height: 45px;
+    width: 90px;
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+    border-radius: 7px;
+    float: right;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.btn2:hover {
+    background-color: rgb(37, 190, 50);
+}
+
+.btn3:hover {
+    background-color: rgb(37, 190, 50);
+}
+
+.btn2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.hr1 {
+    margin-left: 30px;
+    margin-right: 25px;
+    margin-top: 30px;
+}
+
+#p1 {
+    font-weight: 0;
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+#What {
+    font-weight: 0;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+#Before {
+    font-weight: 0;
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+#buds {
+    color: black;
+    padding-left: 0px;
+}
+
+#buds:hover {
+    color: green;
+}
+
+#bud {
+    margin-left: 30px;
+}
+
+#tissue {
+    font-weight: 0;
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+#link {
+    color: black;
+}
+
+#link:hover {
+    color: green;
+}
+
+#PHP {
+    font-weight: 0;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+#tadow {
+    margin-left: 40px;
+    line-height: 20px;
+}
+
+#cool {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(247, 250, 96);
+    border: 1px solid rgb(191, 245, 138);
+    margin: 0px;
+}
+
+#cool1 {
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+#cool2 {
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+#cool3 {
+    margin-left: 50px;
+}
+
+#cool4 {
+    margin-left: 50px;
+    line-height: 5px;
+}
+
+#File {
+    font-weight: 0;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+#Do {
+    font-weight: 0;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+#with {
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+#why {
+    font-weight: 0;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+#new {
+    font-weight: 0;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+.bag {
+    background-color: rgb(33, 165, 44);
+    border: 1px solid rgb(23, 201, 38);
+    height: 45px;
+    width: 90px;
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+    border-radius: 7px;
+    float: left;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.bag:hover {
+    background-color: rgb(37, 190, 50);
+}
+
+.bag a {
+    text-decoration: none;
+    color: white;
+}
